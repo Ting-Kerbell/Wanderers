@@ -11,3 +11,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.story {
+
+    height:750px; 
+    background-color:rgba(0, 0, 0, 0.5); 
+    color: white; 
+    font-size:36px
+}
