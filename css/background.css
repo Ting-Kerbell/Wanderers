@@ -14,8 +14,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .story {
-
-    height:750px; 
+ 
     background-color:rgba(0, 0, 0, 0.5); 
     margin-right: 100px;
     margin-left: 100px;
@@ -25,6 +24,50 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
 margin-right: 20px;
     margin-left: 20px;
+}
+.bubble 
+{
+margin: 0 auto;
+position: relative;
+width: 240px;
+height: 120px;
+padding: 6px;
+background: #38C8FF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #FFFFFF solid 6px;
+}
+
+.bubble:after 
+{
+content: '';
+margin: 0 auto;
+position: absolute;
+border-style: solid;
+border-width: 27px 15px 0;
+border-color: #38C8FF transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -15px;
+bottom: -27px;
+left: 73%;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 32px 20px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 0;
+margin-left: -20px;
+bottom: -38px;
+left: 73%;
 }
 h1 {
     text-align: center;
