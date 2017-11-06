@@ -5,7 +5,7 @@ body {
     /* Set a specific height */
     height: 500px; 
 font-family: Arial, Helvetica, sans-serif;
-    color: white; 
+    color: #e7DFDD; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -31,12 +31,13 @@ margin: 0 auto;
 position: relative;
 width: 240px;
 height: 120px;
+color: #e7DFDD;
 padding: 6px;
-background: #38C8FF;
+background: #4717F6;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
-border: #FFFFFF solid 6px;
+border: #e7DFDD solid 6px;
 }
 
 .bubble:after 
@@ -46,15 +47,51 @@ margin: 0 auto;
 position: absolute;
 border-style: solid;
 border-width: 27px 15px 0;
-border-color: #38C8FF transparent;
+border-color:  #4717F6 transparent;
 display: block;
 width: 0;
-z-index: 1;
+
 margin-left: -15px;
 bottom: -27px;
 left: 73%;
 }
+.text-muted {
+    color: #636c72!important;
+    margin-right: 10px;
+}
+.text-right {
+    text-align: right!important;
+}
 
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.thought{
+ 
+    margin: 0 auto;
+    width: 240px;
+    color: #e7DFDD;
+    border-bottom: 0;
+    border-left: none;
+    border-right: 0;
+    border-top: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+   
+    outline: 0;
+    padding: 15px;
+    background-color: #0e0B16;
+    border-left: 4px solid #A239CA;
+    text-align: left;
+}
 .bubble:before 
 {
 content: '';
