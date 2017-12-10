@@ -1,0 +1,57 @@
+      <!DOCTYPE html>
+<html>
+<head>
+       
+        <title>Where Are We?</title>
+
+       
+      <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+<div>
+
+    <h1>You are a disappointing star, can you be the emit the first gamma ray burst in the Milky way and ruin Chad’s frat party?
+
+</h1>
+    
+</div>
+<div class="story">
+<img src="css/Pictures/burst.jpg" style = "display: block; margin: auto; width: 50%;">
+<div class = "text">
+Now THIS sounds like a good idea, if only you could figure out how to do it…
+</div>
+<br>
+<div class= "thought" id = "choice 1" >
+        <span style="cursor:pointer" onclick= goTo("findsta.html")>Find another star, maybe ask if he/she/they/it knows.
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thought" id = "choice 2" onclick= goTo("Endings/didNothing.html")>
+        <span >Continue floating around space and try to make yourself explode.
+</span><br>
+        
+</div>
+<br>
+<br>
+<div class= "thought" id = "choice 3" onclick= goTo("Endings/soul.html")>
+        <span >Search deep within your soul looking for answers, just like your spiritual healer suggested</span><br>
+        
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+  <footer class="footer">
+                <div class="container text-muted text-right">
+                        <a href="about.html" class="text-muted">About</a> |  Ting-Kerbell © 2017
+                </div>
+        </footer>
+</body>
+<script>
+function goTo(i) {
+    window.location.href = i;
+}
+</script>
+</html>

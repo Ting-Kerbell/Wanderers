@@ -1,0 +1,59 @@
+      <!DOCTYPE html>
+<html>
+<head>
+       
+        <title>Where Are We?</title>
+
+       
+      <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+<div>
+
+    <h1>You are a disappointing star, can you be the emit the first gamma ray burst in the Milky way and ruin Chad’s frat party?
+
+</h1>
+    
+</div>
+<div class="story">
+<img src="css/Pictures/orien.jpg" style = "display: block; margin: auto; width: 30%;">
+<div class = "text">
+It takes you a few million years, but you wander (in space) over to the nearest star, which is in the Orien Arm and try to ask, but all of a sudden, you get all nervous and hot and sweaty. What do you do next? 
+</div>
+<br>
+<div class= "thought" id = "choice 1" >
+        <span style="cursor:pointer" onclick= goTo("Endings/askedout")>Ask outright. It’s always best to be upfront.
+
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thought" id = "choice 2" onclick= goTo("pickup")>
+        <span >Start with some small talk
+</span><br>
+        
+</div>
+<br>
+<br>
+<div class= "thought" id = "choice 3" onclick= goTo("Endings/quiet")>
+        <span >Keep quiet in hopes that the other star will introduce themselves first.
+        </span><br>
+        
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+  <footer class="footer">
+                <div class="container text-muted text-right">
+                        <a href="about.html" class="text-muted">About</a> |  Ting-Kerbell © 2017
+                </div>
+        </footer>
+</body>
+<script>
+function goTo(i) {
+    window.location.href = i;
+}
+</script>
+</html>

@@ -14,14 +14,20 @@
     
 </div>
 <div class="story">
-    <img src="../css/Pictures/sunandearth.jpg" style = "display: block; margin: auto; width: 30%;">
+    <img src="../css/Pictures/zip.jpg" style = "display: block; margin: auto; width: 40%;">
 <div class = "text">
-	You continue to do nothing until the end of your existence. Chad hosts an awesome party, and life on Earth continues to live on. Look at you. Look at what you caused. And feel shame. Sad!
+	There are billions of other fish in the sea, or quite literally, stars in the universe, and therefore the other does not notice you approaching and never introduces themselves. Two centuries later, it occurs that maybe the other star is also hoping that you will introduce yourself, but it’s already so awkward at this point, you might as well stay quiet.
+    <br>
+You never get your answers.
+
+<br>
+<br>
+<br>
 
 	</div>
 <br>
 <div class= "thought" id = "choice 1" >
-        <span style="cursor:pointer" onclick= goTo("../index.html")>Return to Checkpoint</span><br>
+        <span style="cursor:pointer" onclick= goTo("../findsta")>Return to Checkpoint</span><br>
 </div>
 <br>
 <br>

@@ -14,14 +14,18 @@
     
 </div>
 <div class="story">
-    <img src="../css/Pictures/sunandearth.jpg" style = "display: block; margin: auto; width: 30%;">
+    <img src="../css/Pictures/yoda.jpg" style = "display: block; margin: auto; width: 10%;">
 <div class = "text">
-	You continue to do nothing until the end of your existence. Chad hosts an awesome party, and life on Earth continues to live on. Look at you. Look at what you caused. And feel shame. Sad!
+	Since you are a star, you don’t have a soul, and find nothing of value. Continue your search somewhere else you must.
+
+<br>
+<br>
+<br>
 
 	</div>
 <br>
 <div class= "thought" id = "choice 1" >
-        <span style="cursor:pointer" onclick= goTo("../index.html")>Return to Checkpoint</span><br>
+        <span style="cursor:pointer" onclick= goTo("../corr1")>Return to Checkpoint</span><br>
 </div>
 <br>
 <br>
