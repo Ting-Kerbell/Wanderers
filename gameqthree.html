@@ -1,0 +1,86 @@
+      <!DOCTYPE html>
+<html>
+<head>
+       
+        <title>Where Are We?</title>
+
+       
+      <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+<div>
+
+    <h1>You are a disappointing star, can you be the emit the first gamma ray burst in the Milky way and ruin Chad’s frat party?
+
+</h1>
+    
+</div>
+<div class="story">
+<img src="css/Pictures/alien.png" style = "display: block; margin: auto; width: 50%;">
+<div class = "text">
+Question 3: <br>Consider the following discussion between the two students: <br>
+ Student 1: "Two different processes create SHBS and long GRBs."<br> Student 2: "That is most certainly incorrect. They are both made from the same process." <br>Do you agree with Student 1, Student 2, both, or neither?
+
+ <br>
+</div>
+<br>
+<div class= "thot" id = "choice 1" style = "width = 500px;">
+        <span style="cursor:pointer">Long GRBs and SHBs are both created when the merger of binary systems collides with a collapsing massive star, resulting in a super black hole. 
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thought" id = "choice 4">
+        <span style="cursor:pointer" > Where are the kittens? I was promised cute little kittens. 
+
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thot" id = "choice 2">
+        <span style="cursor:pointer;" onclick= goTo("gameqfour.html")>Long GRBs are created when massive stars collapse into a black hole while SHBs are produced in the merger of two neutron stars or a neutron star and a black hole. 
+
+</span><br>
+</div>
+
+<br>
+<br>
+<div class= "thot" id = "choice 3">
+        <span style="cursor:pointer" > Neither of them are created in any process. Gamma-ray bursts just spontaneously appear out of nowhere and ruin everyone’s day (like your ex-wife). 
+
+</span><br>
+</div>
+<br>
+<br>
+<br>
+</div>
+  <footer class="footer">
+                <div class="container text-muted text-right">
+                        <a href="about.html" class="text-muted">About</a> |  Ting-Kerbell © 2017
+                </div>
+        </footer>
+</body>
+<script>
+window.onload = function () {
+ document.getElementById("choice 4").onclick = function () {
+        alert("THAT HAS NOTHING TO DO WITH GRBs!");
+    }
+     document.getElementById("choice 3").onclick = function () {
+        alert("Well, that was not very nice. Go to jail, do not pass go, do not collect 200$. ");
+    }
+     document.getElementById("choice 1").onclick = function () {
+        alert("Wow, that’s incorrect! Sorry!");
+    }
+    document.getElementById("choice 2").onclick = function () {
+        alert("Good job! Next question.");
+    }
+      
+  }
+function goTo(i) {
+    window.location.href = i;
+}
+function al(i){
+  alert(i);
+}
+</script>
+</html>

@@ -1,0 +1,88 @@
+      <!DOCTYPE html>
+<html>
+<head>
+       
+        <title>Where Are We?</title>
+
+       
+      <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+<div>
+
+    <h1>You are a disappointing star, can you be the emit the first gamma ray burst in the Milky way and ruin Chad’s frat party?
+
+</h1>
+    
+</div>
+<div class="story">
+<img src="css/Pictures/alien.png" style = "display: block; margin: auto; width: 30%;">
+<div class = "text">
+Out of nowhere, an alien, a studio and a live studio audience appears. <br>
+
+Hello! I’m you host Xalex Xrebek! And welcome tooooooooo
+<br> <br>
+  JEOPARDY! IN! SPACE!
+  <br>
+  Today we’ll be testing our interstellar contestants on Gamma Ray bursts! So grab your tin foil hats, and let’s dive right in!
+  <br>
+Question 1: How long does an average gamma ray burst (GRB) last?
+
+ <br>
+</div>
+<br>
+<div class= "bubble" id = "choice 1" >
+        <span style="cursor:pointer">A few hours.
+</span><br>
+</div>
+<br>
+<br>
+<div class= "bubble" id = "choice 2" style = " width: 300px">
+        <span style="cursor:pointer;" onclick= goTo("gameqtwo.html")>From a millisecond up to a few minutes.
+</span><br>
+</div>
+<br>
+<br>
+<div class= "bubble" id = "choice 3" >
+        <span style="cursor:pointer" > Anywhere from a year to a century.
+</span><br>
+</div>
+<br>
+<br>
+<div class= "bubble" id = "choice 4" >
+        <span style="cursor:pointer" > Cute little kittens.
+
+</span><br>
+</div>
+<br>
+<br>
+</div>
+  <footer class="footer">
+                <div class="container text-muted text-right">
+                        <a href="about.html" class="text-muted">About</a> |  Ting-Kerbell © 2017
+                </div>
+        </footer>
+</body>
+<script>
+window.onload = function () {
+ document.getElementById("choice 4").onclick = function () {
+        alert("Alright, that's not even a measurement of time.");
+    }
+     document.getElementById("choice 3").onclick = function () {
+        alert("That's too long.");
+    }
+     document.getElementById("choice 1").onclick = function () {
+        alert("Ooh, just a bit off.");
+    }
+    document.getElementById("choice 2").onclick = function () {
+        alert("Ooh, right on! Next question!");
+    }
+  }
+function goTo(i) {
+    window.location.href = i;
+}
+function al(i){
+  alert(i);
+}
+</script>
+</html>

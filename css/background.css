@@ -92,6 +92,24 @@ left: 73%;
     border-left: 4px solid #A239CA;
     text-align: left;
 }
+.thot{
+    margin: 0 auto;
+    width: 420px;
+    color: #e7DFDD;
+    border-bottom: 0;
+    border-left: none;
+    border-right: 0;
+    border-top: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+   
+    outline: 0;
+    padding: 15px;
+    background-color: #0e0B16;
+    border-left: 4px solid #A239CA;
+    text-align: left;
+}
 .bubble:before 
 {
 content: '';

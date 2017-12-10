@@ -1,0 +1,90 @@
+      <!DOCTYPE html>
+<html>
+<head>
+       
+        <title>Where Are We?</title>
+
+       
+      <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+<div>
+
+    <h1>You are a disappointing star, can you be the emit the first gamma ray burst in the Milky way and ruin Chad’s frat party?
+
+</h1>
+    
+</div>
+<div class="story">
+<img src="css/Pictures/alien.png" style = "display: block; margin: auto; width: 40%;">
+<div class = "text">
+Question 2: <br>What are the differences between short-duration hard spectrum gamma-ray bursts (SHBs) and long-duration soft spectrum gamma-ray bursts (long GRBs)?
+
+ <br>
+</div>
+<br>
+<div class= "thought" id = "choice 1" style = "width = 500px;">
+        <span style="cursor:pointer">SHBs prefer smaller, cuter kittens while long GRBs prefer old, feral cats. 
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thot" id = "choice 4">
+        <span style="cursor:pointer" > SHBs are much more energetic and powerful explosions compared to long GRBs and can exterminate the Earth from a distance of 738 light-years away. Long GRBs are harmless. 
+
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thot" id = "choice 3">
+        <span style="cursor:pointer" > SHBs work hard and play hard while long GRBs are in it for the long run. 
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thot" id = "choice 2">
+        <span style="cursor:pointer;" onclick= goTo("gameqthree.html")>SHBs last 0.3 seconds on average and long GRBs last 30 seconds on average. Both bursts are followed by longer wavelength emissions called an “afterglow”. This afterglow provides lots of information, including their host galaxies’ identification and redshift measurements; and thus, the bursts’ distance scale. It also suggests that SHBs and long GRBs are produced via two different processes. 
+</span><br>
+</div>
+<br>
+<br>
+<div class= "thot" id = "choice 5" >
+        <span style="cursor:pointer" >SHBs are produced when three or more asteroids collide really, really fast. Long GRBs are created when three or more comets collide. They’re totally different things. 
+</span><br>
+</div>
+<br>
+<br>
+<br>
+</div>
+  <footer class="footer">
+                <div class="container text-muted text-right">
+                        <a href="about.html" class="text-muted">About</a> |  Ting-Kerbell © 2017
+                </div>
+        </footer>
+</body>
+<script>
+window.onload = function () {
+ document.getElementById("choice 4").onclick = function () {
+        alert("What? No. Retry");
+    }
+     document.getElementById("choice 3").onclick = function () {
+        alert("Ok, no. Retry.");
+    }
+     document.getElementById("choice 1").onclick = function () {
+        alert("Not even close, retry!");
+    }
+    document.getElementById("choice 2").onclick = function () {
+        alert("Good job! Next question.");
+    }
+      document.getElementById("choice 5").onclick = function () {
+        alert("I'm not sure how that would work, so no.");
+    }
+  }
+function goTo(i) {
+    window.location.href = i;
+}
+function al(i){
+  alert(i);
+}
+</script>
+</html>
