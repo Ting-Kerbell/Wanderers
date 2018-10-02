@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.fun_picks.fpphoto"
+        minSdkVersion 19
+        targetSdkVersion 21
+        // Enabling multidex support.
+        multiDexEnabled true
+
+    }
+
+    lintOptions {
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            shrinkResources true
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "6g"
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    //compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.google.android.gms:play-services-analytics:9.4.0'
+}
+
+dependencies {
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+}
+
+//compile 'com.google.android.gms:play-services:+'
+/*dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.0.2'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-auth:9.0.2'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:9.0.2'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.0.2'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-auth:9.0.2'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:9.0.2'
+}//compile 'com.google.android.gms:play-services:7.0.0'*/
+
+dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.4.0'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:9.4.0'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-ads:9.4.0'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+}
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:9.4.0'
+}
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+}
+apply plugin: 'com.google.gms.google-services'

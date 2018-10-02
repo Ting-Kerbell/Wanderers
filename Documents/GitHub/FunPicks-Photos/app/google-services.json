@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "404061849253",
+    "project_id": "funpicks-photo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404061849253:android:122c75d0d4d4d4cd",
+        "android_client_info": {
+          "package_name": "com.fun_picks.fpphoto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYs8fQVL9dy1qo8p8dOHE9AOSTeBtIgZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-84596677-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
